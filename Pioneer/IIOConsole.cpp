@@ -1,4 +1,0 @@
-__interface IIOConsole
-{
-
-};
