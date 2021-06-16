@@ -13,10 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\core">
+      <UniqueIdentifier>{036eb1a9-c413-44cf-a18e-fbbf6fffa79a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\core\obj">
+      <UniqueIdentifier>{5e7226bf-6a4e-4b20-b629-a3ec82a8ca61}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Pioneer.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="ware.cpp">
+      <Filter>Исходные файлы\core\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="IIOConsole.cpp">
+      <Filter>Исходные файлы\core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ware.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
